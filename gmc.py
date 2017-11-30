@@ -46,5 +46,5 @@ def ganMenu(filename):
                         menu = ''.join(['<h', str(len(head)), ' id=id', str(headId), '>', i[
                                        len(head):].strip(' \t\n'), '</h', str(len(head)), '>   \n'])
                         f2.write(menu)
-                        headId += 1
+
 
