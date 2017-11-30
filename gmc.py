@@ -48,9 +48,3 @@ def ganMenu(filename):
                         f2.write(menu)
                         headId += 1
 
-
-if __name__ == '__main__':
-    try:
-        ganMenu(sys.argv[1])
-    except Exception as e:
-        usage()
