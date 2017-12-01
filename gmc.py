@@ -3,7 +3,7 @@ import re
 import sys
 d = {"#": 1, "##": 2, "###": 3, "####": 4, "#####": 5, "######": 6}
 pattern = '#+\s'
-
+111
 
 def usage():
     print ''' 
